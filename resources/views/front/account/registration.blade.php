@@ -17,7 +17,7 @@
                         </div> 
                         <div class="mb-3">
                             <label for="" class="mb-2">Email*</label>
-                            <input type="text" name="email" id="email" class="form-control" placeholder="Enter Email">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email">
                             <p></p>
                         </div> 
                         <div class="mb-3">
@@ -34,7 +34,7 @@
                     </form>                    
                 </div>
                 <div class="mt-4 text-center">
-                    <p>Have an account? <a  href="login.html">Login</a></p>
+                    <p>Have an account? <a  href="{{route('account.login')}}">Login</a></p>
                 </div>
             </div>
         </div>
